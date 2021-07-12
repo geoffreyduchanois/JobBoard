@@ -1,0 +1,170 @@
+#titles{
+    display: flex;
+    color: red;
+    justify-content: center ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titre{
+    color:orange ;
+    justify-content: left ;
+    width:100%;
+}
+
+.body {
+    background-color:lightblue ;
+
+}
+
+.boite{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.article{
+    background-color: sandybrown;
+    border-style: solid;
+    width: 100%;
+    border-radius: 3px;
+    display: flex;
+    position: relative;
+}
+
+
+#entete {
+    color: darkblue;
+    font-size: 70px;
+    font-style: italic;
+    font-family: monospace ;
+    background-color: khaki ;
+    border-style: groove;
+    display: flex;
+    width : 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lien{
+    display: flex;
+    border-style: solid;
+    border-radius: 1px;
+    background-color: darkblue;
+    color: white;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#nom{
+    padding-left: 10px;
+    background-color:yellow;
+    margin-bottom: auto;
+    border-style: dotted;
+    border-color: red;
+    margin-top: auto;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: right;
+    height: 100%;
+    width: auto;
+    display: flex;
+    order: 2;
+    flex: 0.6;
+    margin-left: 10px;
+    font-family: monospace;
+    justify-content: space-between;
+}
+
+
+
+.apply{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+  .grid-container {
+    display: grid;
+    flex: 0.4;
+    grid-template-columns: auto auto auto;
+    background-color: sandybrown;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color:sandybrown;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+
+  .inputs{
+      width: 100%;
+  }
+
+.input{
+    width: 50%;
+    align-self: center;
+}
+
